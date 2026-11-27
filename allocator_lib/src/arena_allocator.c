@@ -58,7 +58,8 @@ void* PushChunk(Arena *pArena, Chunk *pChunk)
     return temp_current_start_address;
 }
 
-Chunk InitChunk(size_t element_size) {
+Chunk InitChunk(size_t element_size)
+{
     Chunk chunk = {
         .size = CHUNK_SIZE,
         .element_size = element_size,

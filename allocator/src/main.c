@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{
     Arena arena = InitArena();
     Chunk chunk = InitChunk(sizeof(float));
 
