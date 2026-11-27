@@ -16,3 +16,7 @@ From `build/` run `cmake -G Ninja` then `ninja` to compile
 Step 3 Execute:
 run `./allocator/main.exe`
 you should see printouts of the float values pushed onto the arena.
+
+Notes / Restrictions:
+The current implementation of the Chunks and Arena does not support different data-types within a single chunk.
+This is due to the lack of memory alignment and padding logic needed to keep it efficient.
