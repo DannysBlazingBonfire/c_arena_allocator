@@ -1,7 +1,7 @@
-#include<stdint.h>
-
 #ifndef ARENA_ALLOCATOR_H
 #define ARENA_ALLOCATOR_H
+
+#include<stdint.h>
 
 // Constants
 #define ARENA_CAPACITY 1024
